@@ -112,3 +112,22 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 Until this point, Syncthing will have to be opened in Desktop mode every time we want our files to be synced. However, Syncthing can be configured to launch in the background every time SteamOS boots up. To do this, follow the next steps:
 
+1. On SteamOS, download the <a href="https://raw.githubusercontent.com/jamescastells/steamos-utilities/main/syncthing/enable_autostartup.sh">enable_autostartup file</a> (right click that link, choose Save link as..., and save it to your Downloads folder).
+
+2. On the Downloads folder, right click the enable_autostartup file and select Properties.
+
+3. On the Permissions tab, check "Is executable". Then click OK.
+
+4. Double click the enable_autosartup file and click Execute.
+
+This will enable Syncthing to start on every boot. To check its status, use the Syncthing GTK app described above.
+
+If you want to disable the automatic start-up, follow these steps:
+
+1. On SteamOS, download the <a href="https://raw.githubusercontent.com/jamescastells/steamos-utilities/main/syncthing/disable_autostartup.sh">disable_autostartup file</a> (right click that link, choose Save link as..., and save it to your Downloads folder).
+
+2. On the Downloads folder, right click the disable_autostartup file and select Properties.
+
+3. On the Permissions tab, check "Is executable". Then click OK.
+
+4. Double click the disable_autostartup file and click Execute.
