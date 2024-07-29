@@ -69,3 +69,13 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 5. On SteamOS, a notification will appear on Syncthing GTK. Click Add and then Save in the next window.
 
 ![image](https://github.com/user-attachments/assets/666794f5-7769-42b4-b59f-8a6348ecc4a8)
+
+6. On the three line menu, click on Restart Daemon, and the other PC will appear as active.
+
+### Sync folder
+
+1. On Steam OS, right clic the folder, and click Edit.
+
+2. In the "Share with devices" tab, check the name of the other PC you just activated.
+
+3. 
