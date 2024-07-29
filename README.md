@@ -76,6 +76,11 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 1. On Steam OS, right clic the folder, and click Edit.
 
-2. In the "Share with devices" tab, check the name of the other PC you just activated.
+![image](https://github.com/user-attachments/assets/3405b578-2324-41ac-947e-6fc6ad2f16c0)
 
-3. 
+3. In the "Share with devices" tab, check the name of the other PC you just activated.
+
+![image](https://github.com/user-attachments/assets/7b270fd4-90d8-4a93-8002-a70af20955ae)
+
+
+5. 
