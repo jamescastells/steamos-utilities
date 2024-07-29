@@ -67,3 +67,6 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 ![image](https://github.com/user-attachments/assets/33f7d074-b792-4bfb-888d-86a701d2df42)
 
 5. On SteamOS, a notification will appear on Syncthing GTK. Click Add and then Save in the next window.
+
+![image](https://github.com/user-attachments/assets/30469d97-3adc-4f58-8b00-302f15a383ba)
+
