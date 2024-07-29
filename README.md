@@ -100,11 +100,15 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 ### Testing the synchronization
 
-1. On either SteamOS or the other PC, add a file to the folder.
+1. On either SteamOS or the other PC, add a file to the folder. For example, we'll add a "test.rtf" file.
 
 <img width="1068" alt="image" src="https://github.com/user-attachments/assets/59aa7487-968f-4577-b639-3efc68d5553c">
 
 2. The file should appear in the other PC.
 
 ![image](https://github.com/user-attachments/assets/a5dbe3bc-ee08-429e-b1d9-d7086e334991)
+
+### Automatic start-up
+
+Until this point, Syncthing will have to be opened in Desktop mode every time we want our files to be synced. However, Syncthing can be configured to launch in the background every time SteamOS boots up. To do this, follow the next steps:
 
