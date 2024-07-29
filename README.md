@@ -16,13 +16,42 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 ![image](https://github.com/user-attachments/assets/39bc1830-fc2f-4144-88e6-1013bec3602b)
 
+3. Go to the SteamOS menu, and under System, click Discover.
 
-3. Open the Discover store.
+![image](https://github.com/user-attachments/assets/5beadbf4-eb13-4690-ad8a-ccecbe125c8f)
 
-4. Search for "Syncthing" and you'll find the syncthing-gtk app. Click on Install.
+5. Search for "Syncthing" and you'll find the Syncthing GTK app. Click on Install.
+
+![image](https://github.com/user-attachments/assets/527ca01f-802d-4ff1-ad7c-2a9a66fa431a)
 
 ### Configuring Syncthing
 
 1. Once installed, go to the SteamOS menu, and click "Internet", and then click on Syncthing GTK.
 
-2. On 
+![image](https://github.com/user-attachments/assets/d766d149-ed64-4de9-853e-e15f07bf1ba6)
+
+2. The app will open, and you'll have something similar to this:
+
+![image](https://github.com/user-attachments/assets/9c283b66-7f61-47fd-9dac-51a4cb304c55)
+
+3. It's time to configure which folder will have its contents synced up. On the three lines button, click on "Add shared folder".
+
+![image](https://github.com/user-attachments/assets/4acbb537-cfa2-4fdc-b66b-91d6732940e2)
+
+4. Under "Folder label" write a name for the shared folder. In this example, we'll share a folder called "saves", so we'll leave that as a name. In the Browse button, navigate to the folder you wish to sync, and once you're there, click on Ok.
+
+![image](https://github.com/user-attachments/assets/24a36c1a-db3e-4af6-8e7c-90da08646c93)
+
+5. Under "Rescan interval", write in seconds how frequent will the files sync. In this example, we'll leave at "1" so they update immediately.
+
+6. In the checks below, leave both "Send only folder" and "Receive only folder" unchecked, so this folder will both send and receive files.
+
+![image](https://github.com/user-attachments/assets/29017ecb-5ee2-427d-9ab4-e53f7808a8d6)
+
+7. Click save.
+
+### Sync with another computer
+
+1. Install Syncthing in another computer, downloading the installer for the OS of that PC: https://syncthing.net/downloads/
+
+2. 
