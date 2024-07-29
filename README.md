@@ -68,5 +68,4 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 5. On SteamOS, a notification will appear on Syncthing GTK. Click Add and then Save in the next window.
 
-![image](https://github.com/user-attachments/assets/30469d97-3adc-4f58-8b00-302f15a383ba)
-
+![image](https://github.com/user-attachments/assets/666794f5-7769-42b4-b59f-8a6348ecc4a8)
