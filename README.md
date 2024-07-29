@@ -48,10 +48,22 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 ![image](https://github.com/user-attachments/assets/29017ecb-5ee2-427d-9ab4-e53f7808a8d6)
 
-7. Click save.
+7. Click Save.
 
 ### Sync with another computer
 
 1. Install Syncthing in another computer, downloading the installer for the OS of that PC: https://syncthing.net/downloads/
 
-2. 
+2. Once installed, open it. You'll arrive to a web interface.
+
+<img width="1281" alt="image" src="https://github.com/user-attachments/assets/5d783cb2-00ca-436a-812c-dc736106317b">
+
+3. Under Remote devices, click "Add remote device".
+
+<img width="643" alt="image" src="https://github.com/user-attachments/assets/5f56fb71-15f1-4078-9bf4-c1c2c49b4212">
+
+4. You'll be asked for the device ID. To obtain it, go to SteamOS, and on the three lines menu, click Show ID. Write down the long text that appears on top of the QR code. That must be entered under the Device ID text input. However, if both are on the same network, the device ID will appear automatically, and you'll just have to click on it, and then click Save.
+
+![image](https://github.com/user-attachments/assets/33f7d074-b792-4bfb-888d-86a701d2df42)
+
+5. On SteamOS, a notification will appear on Syncthing GTK. Click Add and then Save in the next window.
