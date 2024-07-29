@@ -96,6 +96,8 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 7. On SteamOS, in the three lines menu, restart the deamon once again, and in both SteamOS and the other PC, the folder will start to sync.
 
+![image](https://github.com/user-attachments/assets/de8c2acb-ac1e-4e26-a283-74cfea67a006)
+
 ### Testing the synchronization
 
 1. On either SteamOS or the other PC, add a file to the folder.
@@ -103,4 +105,6 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 <img width="1068" alt="image" src="https://github.com/user-attachments/assets/59aa7487-968f-4577-b639-3efc68d5553c">
 
 2. The file should appear in the other PC.
+
+![image](https://github.com/user-attachments/assets/a5dbe3bc-ee08-429e-b1d9-d7086e334991)
 
