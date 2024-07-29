@@ -78,9 +78,29 @@ Important note: both the Steam Deck and the other PC, where the files will be sy
 
 ![image](https://github.com/user-attachments/assets/3405b578-2324-41ac-947e-6fc6ad2f16c0)
 
-3. In the "Share with devices" tab, check the name of the other PC you just activated.
+3. In the "Share with devices" tab, check the name of the other PC you just activated. Click Save.
 
 ![image](https://github.com/user-attachments/assets/7b270fd4-90d8-4a93-8002-a70af20955ae)
 
+4. Return to the other PC, and it will have a notification that a folder wants to be shared. Click Add.
 
-5. 
+<img width="1160" alt="image" src="https://github.com/user-attachments/assets/9afcb001-e1e1-4d2f-a262-5b4a4e8e68a2">
+
+5. In the folder path, paste the whole path of the folder where the synced up content will be.
+
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/9930bf8b-6b5b-4345-b47d-c1a788629ef5">
+
+6. In the "Advanced" tab, on Full scan interval (s), write in seconds how much time has to pass to sync the folder. Similar as above, we can leave 1 to be automatic. Click Save.
+
+<img width="930" alt="image" src="https://github.com/user-attachments/assets/e7e7919f-b807-4c2a-982f-fa41925b6aaa">
+
+7. On SteamOS, in the three lines menu, restart the deamon once again, and in both SteamOS and the other PC, the folder will start to sync.
+
+### Testing the synchronization
+
+1. On either SteamOS or the other PC, add a file to the folder.
+
+<img width="1068" alt="image" src="https://github.com/user-attachments/assets/59aa7487-968f-4577-b639-3efc68d5553c">
+
+2. The file should appear in the other PC.
+
