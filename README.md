@@ -137,7 +137,7 @@ If you want to disable the automatic start-up, follow these steps:
 
 Not necesarily related to SteamOS, after some tinkering I found a way to enable multiple directories for ES-DE. This way, you can have ROMs in internal and external folders.
 
-Important to note is that you can not have the same system in several folders. That means, for example, that the "nes" folder will point to an internal folder, and the "wiiu" will point to an external folder; but the "wiiu" can't point to an internal and external folder.
+Important to note is that you can not have the same system in several folders. That means, for example, that the "NES" system will point to an internal folder, and the "WII U" system will point to an external folder; but the "WII U" system can't point both to an internal and external folder.
 
 This guide assumes that ES-DE is already configured using a (probably?) internal folder, and the user wants to use it in conjuntion with an external folder of ROMs.
 
