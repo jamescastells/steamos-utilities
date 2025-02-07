@@ -137,7 +137,7 @@ If you want to disable the automatic start-up, follow these steps:
 
 Not necesarily related to SteamOS, after some tinkering I found a way to enable multiple directories for ES-DE. This way, you can have ROMs in internal and external folders.
 
-Important to note is that you can not have the same system in several folders. That means, for example, that the "NES" system will point to an internal folder, and the "WII U" system will point to an external folder; but the "WII U" system can't point both to an internal and external folder.
+Important to note is that you can not have the same system in several folders. That means, for example, that the "NES" system will point to an internal folder, and the "Wii U" system will point to an external folder; but the "Wii U" system can't point both to an internal and external folder.
 
 This guide assumes that ES-DE is already configured using a (probably?) internal folder, and the user wants to use it in conjuntion with an external folder of ROMs.
 
@@ -184,7 +184,7 @@ After installing that app, use it and select your SD-CARD in the top-left icon. 
 </systemList>
 ```
 
-12. Before the </systemList> tag, paste the section you copied before. In my case, the es_systems.xml file is looking like this:
+12. Before the ```</systemList>``` tag, paste the section you copied before. In my case, the es_systems.xml file is looking like this:
 
 ```html
 <?xml version="1.0"?>
@@ -201,7 +201,7 @@ After installing that app, use it and select your SD-CARD in the top-left icon. 
 </systemList>
 ```
 
-13. Now, replace the line <path>%ROMPATH%/wiiu</path> with the path of where your wii ROMs are. If you're using an SD-Card on Android, this line would become: <path>/storage/XXXX-XXXX/ROMs/wiiu</path>, where XXXX-XXXX is your SD-Card ID.
+13. Now, replace the line ```<path>%ROMPATH%/wiiu</path>``` with the path of where your wii ROMs are. If you're using an SD-Card on Android, this line would become: ```<path>/storage/XXXX-XXXX/ROMs/wiiu</path>```, where XXXX-XXXX is your SD-Card ID.
 
 14. Save and exit the file. Copy some files to your folder inside the new location or SD-Card (in my case, inside the ROMs/wiiu/ folder) and ES-DE should pick them up. Remember that this means ES-DE will only look for Wii U Roms in the SD-Card, and will no longer look for them in the internal storage.
 
