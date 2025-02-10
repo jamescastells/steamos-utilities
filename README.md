@@ -201,7 +201,7 @@ After installing that app, use it and select your SD-CARD in the top-left icon. 
 </systemList>
 ```
 
-13. Now, replace the line ```<path>%ROMPATH%/wiiu</path>``` with the path of where your wii ROMs are. If you're using an SD-Card on Android, this line would become: ```<path>/storage/XXXX-XXXX/ROMs/wiiu</path>```, where XXXX-XXXX is your SD-Card ID.
+13. Now, replace the line ```<path>%ROMPATH%/wiiu</path>``` with the path of where your Wii U ROMs are. If you're using an SD-Card on Android, this line would become: ```<path>/storage/XXXX-XXXX/ROMs/wiiu</path>```, where XXXX-XXXX is your SD-Card ID.
 
 14. Save and exit the file. Copy some files to your folder inside the new location or SD-Card (in my case, inside the ROMs/wiiu/ folder) and ES-DE should pick them up. Remember that this means ES-DE will only look for Wii U Roms in the SD-Card, and will no longer look for them in the internal storage.
 
@@ -233,3 +233,5 @@ After installing that app, use it and select your SD-CARD in the top-left icon. 
     </system>
 </systemList>
 ```
+
+Note that if you do this process, you have to point the individual emulators to the new paths. For example, since I did this with Wii U Roms, I have to manually open Cemu and point its roms directory to the new ROMs/wiiu folder, so the emulator has permissions to access the folder and ES-DE can launch them.
